@@ -15,10 +15,8 @@ from xmlschema.components import (
 # sample data is hardcoded
 def valsmap(v):
     # numeric types
-    v['decimal']    = '-3.72'
-    v['float']      = '-42.217E11'
-    v['double']     = '+24.3e-3'
-    v['integer']    = '-176'
+    v['decimal'] = '-3.72'
+    v['integer'] = '-176'
     v['positiveInteger'] = '+3'
     v['negativeInteger'] = '-7'
     v['nonPositiveInteger'] = '-34'
